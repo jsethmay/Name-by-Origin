@@ -1,0 +1,35 @@
+SOURCE NOTES AND LIMITATIONS
+
+Original 28 categories: supplied original HTML and first names.js, verified entry-by-entry.
+
+New larger modern pools: Faker 40.1.2 localized person-provider name arrays; locale(s) named in the JavaScript comments. No runtime dependency on Faker. These are illustrative name pools, not census data. Some locales contain shared cultural names, historical names, personal names used in second-name slots, and gender-dependent family names. Romanization of non-Latin scripts uses ICU Any-Latin and may differ from customary spellings.
+Faker: https://github.com/joke2k/faker
+Documentation: https://faker.readthedocs.io/en/stable/
+
+Other additions: manually curated examples from general knowledge; not each independently verified. The lists vary in size. Geographic usage notes are approximate, not statistics. Some Indigenous groups are represented by public civil-name forms rather than traditional or ceremonial names. Historical categories are explicitly revival pools, and their second-name slots are adapted for fictional future use. Smaller traditions for which confident three-field examples were not available have not been included.
+
+Background on geographic usage: https://www.behindthename.com/support/usages.php
+Background on ancient names: https://www.behindthename.com/names/usage/ancient
+Background on Inuit naming and imposed surnames: https://www.canada.ca/en/library-archives/collection/research-help/indigenous-history/indigenous-terminology.html
+Background on naming systems: https://pmc.ncbi.nlm.nih.gov/articles/PMC12819479/
+
+FAKER LICENSE
+Copyright (c) 2012 Daniele Faraglia
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.

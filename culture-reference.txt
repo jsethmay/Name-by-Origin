@@ -1,0 +1,242 @@
+NAMING TRADITIONS — reference for colonies.js
+
+28 original categories; 100 new categories; 128 total.
+Use the identifier on the left in colonies.js. Counts include every original duplicate.
+Geographic notes describe broad usage, not exclusive origin or measured frequencies.
+Some categories use contemporary civil names or historical revival adaptations. See names.js comments.
+
+Identifier | Label | Male / Female / Surname counts | Main regions or communities
+----------------------------------------------------------------------------------------------------
+afrikaans | Afrikaans | 35/35/40 | South Africa and Namibia; Afrikaans-speaking communities across backgrounds. [NEW]
+akan | Akan / Ghanaian | 126/126/162 | Ghana and Côte d’Ivoire; Ghanaian provider includes names outside Akan tradition. [NEW]
+amazigh | Amazigh (Berber) | 27/26/31 | Indigenous North Africa, particularly Morocco and Algeria; also Tunisia, Libya, Siwa in Egypt and Tuareg communities across the Sahara and Sahel. [NEW]
+american | American | 240/190/221 | United States; multicultural American naming, with some overlap with Canada and other diaspora communities.
+ancient-celtic | Ancient Celtic revival | 22/19/16 | Ancient and early medieval Celtic-speaking regions of western and central Europe, including Britain and Ireland. [NEW]
+ancient-egyptian | Ancient Egyptian revival | 30/29/20 | Ancient Nile Valley, especially Egypt; various dynastic periods. [NEW]
+ancient-greek | Ancient Greek revival | 31/30/18 | Ancient Greece and Greek colonies of the Mediterranean and Black Sea. [NEW]
+ancient-persian | Ancient Persian revival | 22/18/16 | Achaemenid and later ancient Iranian empires, centered on modern Iran. [NEW]
+ancient-roman | Ancient Roman revival | 25/29/27 | Roman Republic and Empire; Italy and the ancient Mediterranean. [NEW]
+anglo-saxon | Anglo-Saxon / Old English revival | 30/28/18 | Early medieval England, roughly 5th to 11th centuries. [NEW]
+apache | Apache | 21/21/21 | Southwestern United States, including Arizona and New Mexico; diverse Apache nations. [NEW]
+arabic-middle-eastern | Arabic / Middle Eastern | 120/120/120 | Arabian Peninsula, Levant, Iraq, Egypt and North Africa; also some Persian and South Asian names.
+armenian | Armenian | 151/129/180 | Armenia and Armenian diaspora communities in the Caucasus, Middle East, Europe and Americas. [NEW]
+armenian-western | Western Armenian diaspora | 26/25/28 | Armenian diaspora, especially Lebanon, Syria, Turkey, France and the Americas. [NEW]
+ashkenazi | Ashkenazi Jewish | 30/30/44 | Central and Eastern European Jewish communities and descendants in Israel, North America and elsewhere. [NEW]
+assyrian | Assyrian / Syriac | 28/26/23 | Assyrian communities in Iraq, Syria, Turkey and Iran, with a worldwide diaspora. [NEW]
+aymara | Aymara | 21/22/24 | Bolivian and Peruvian Altiplano, northern Chile and adjacent Argentina. [NEW]
+azerbaijani | Azerbaijani | 180/180/180 | Azerbaijan, northwestern Iran and diaspora communities. [NEW]
+bantu | Bantu | 102/96/96 | Central, eastern and southern Africa; Bantu-speaking peoples across a large and diverse region.
+basque | Basque | 22/24/27 | Basque Country and Navarre in Spain and southwestern France; diaspora. [NEW]
+bengali | Bengali | 93/76/68 | Bangladesh and West Bengal, India. [NEW]
+burmese | Burmese / Myanmar | 32/32/25 | Myanmar and Burmese-speaking diaspora communities. [NEW]
+byzantine | Byzantine revival | 22/21/18 | Eastern Roman Empire, centered on Constantinople, Anatolia and the eastern Mediterranean. [NEW]
+cajun-creole | Cajun / Louisiana Creole | 30/30/32 | Louisiana, especially Acadiana and New Orleans, and Gulf Coast diaspora; distinct but overlapping traditions. [NEW]
+caribbean | Caribbean | 39/39/40 | English-, Spanish-, French- and Dutch-speaking Caribbean; Jamaica, Haiti, Trinidad and Tobago, Barbados and neighboring islands. [NEW]
+celtic | Celtic | 99/97/98 | Ireland, Scotland, Wales, Brittany, Cornwall and the Isle of Man; broad mixed Celtic pool.
+central-african | Central African | 99/100/97 | Congo Basin and neighboring Central African countries.
+cherokee | Cherokee | 20/21/25 | Cherokee communities, especially Oklahoma and North Carolina, United States. [NEW]
+classical-sanskrit | Classical Sanskrit revival | 25/28/13 | Ancient and classical South Asia, especially India; Sanskrit literary and religious traditions. [NEW]
+cree | Cree | 23/21/25 | Canadian First Nations across Quebec, Ontario, Manitoba, Saskatchewan and Alberta, and adjacent US communities. [NEW]
+czech-slovak | Czech / Slovak | 180/180/180 | Czechia and Slovakia. [NEW]
+dravidian | Dravidian | 120/120/120 | Southern India and Sri Lanka; original list is especially Tamil-oriented.
+dutch | Dutch / Flemish | 180/180/180 | Netherlands, Flanders (Belgium) and Dutch diaspora. [NEW]
+east-african | East African | 98/98/98 | Kenya, Tanzania, Uganda and neighboring eastern African communities.
+east-asian-chinese | East Asian — Chinese | 230/230/70 | China, Taiwan, Singapore and worldwide Chinese diasporas.
+east-asian-japanese | East Asian — Japanese | 98/101/97 | Japan and Japanese diaspora communities.
+east-asian-korean | East Asian — Korean | 96/96/98 | Korean Peninsula and Korean diaspora communities.
+eastern-european-slavic | Eastern European / Slavic | 96/96/98 | Russia, Ukraine, Belarus, Poland, Czechia, Slovakia, Balkans and other Slavic-speaking areas.
+english | English / British | 180/180/180 | England and English-speaking Britain; diaspora communities. [NEW]
+ethiopian-horn-of-africa | Ethiopian / Horn of Africa | 98/99/98 | Ethiopia, Eritrea and neighboring Horn of Africa communities.
+filipino | Filipino | 40/40/50 | Philippines and Filipino diaspora communities; Spanish, English and local-language influences. [NEW]
+finnic | Finnic (Finnish / Estonian) | 180/180/180 | Finland and Estonia; not the entire Finnic language family. [NEW]
+french | French / Francophone | 88/127/180 | France, French-speaking Belgium and Switzerland; diaspora communities. [NEW]
+georgian | Georgian | 86/127/180 | Georgia in the South Caucasus. [NEW]
+germanic | German-speaking | 180/180/180 | Germany, Austria, German-speaking Switzerland and Liechtenstein. [NEW]
+gothic | Gothic / early Germanic revival | 25/16/16 | Late antique and early medieval Gothic-speaking peoples and other Germanic groups across Europe. [NEW]
+greek | Greek / Hellenic | 180/180/180 | Greece, Cyprus and Greek diaspora communities. [NEW]
+guarani | Guaraní / Paraguayan | 20/20/24 | Paraguay, northeastern Argentina, southern Brazil and Bolivia; Guaraní-speaking communities. [NEW]
+gujarati | Gujarati | 80/19/8 | Gujarat, India, and Gujarati diaspora communities, including East Africa. [NEW]
+hausa | Hausa | 20/20/20 | Northern Nigeria, Niger and other Sahelian communities. [NEW]
+hawaiian | Native Hawaiian | 25/27/34 | Hawaiian Islands and Native Hawaiian diaspora in the continental United States and elsewhere. [NEW]
+hindi | Hindi / North Indian | 180/148/102 | Hindi-speaking regions of northern and central India. [NEW]
+hungarian | Hungarian / Magyar | 100/100/100 | Hungary and Hungarian communities in Romania, Slovakia, Serbia and Ukraine. [NEW]
+igbo | Igbo | 20/20/20 | Southeastern Nigeria and Igbo diaspora. [NEW]
+indigenous-american | Indigenous American | 99/98/98 | Indigenous peoples of North, Central and South America; broad mixed legacy pool, not a single tradition.
+indigenous-australian | Indigenous Australian / Aboriginal | 98/98/99 | Aboriginal Australian communities; broad legacy pool, not a single language or naming system.
+indo-aryan | Indo-Aryan | 120/120/120 | Northern, western and eastern South Asia: India, Pakistan, Bangladesh, Nepal and Sri Lanka; mixed legacy pool.
+indonesian | Indonesian | 180/180/173 | Indonesia, especially Java and other major islands; diverse regional systems. [NEW]
+inuit | Inuit | 20/20/21 | Arctic Canada (Inuit Nunangat), Greenland and northern Alaska; naming systems vary by community. [NEW]
+irish | Irish | 180/180/180 | Ireland, Northern Ireland and Irish diaspora. [NEW]
+italian | Italian | 180/180/180 | Italy, San Marino and Italian-speaking Switzerland. [NEW]
+jewish-hebrew | Jewish / Hebrew | 98/99/98 | Israel and Jewish diaspora communities worldwide; Hebrew and Jewish naming influences.
+kannada | Kannada | 36/37/27 | Karnataka in southwestern India and Kannada-speaking diaspora. [NEW]
+kazakh | Kazakh | 29/25/25 | Kazakhstan, western Mongolia, Xinjiang and Kazakh diaspora. [NEW]
+khmer | Khmer | 28/28/37 | Cambodia and Khmer communities in Vietnam and Thailand. [NEW]
+kurdish | Kurdish | 30/30/20 | Kurdish communities in Turkey, Iraq, Iran and Syria, plus diaspora. [NEW]
+lakota-dakota | Lakota / Dakota | 21/21/27 | Northern Great Plains of the United States and Canada; Lakota and Dakota communities. [NEW]
+lao | Lao | 28/28/27 | Laos and Lao diaspora communities in Thailand, France, the United States and elsewhere. [NEW]
+latin-iberian | Latin / Iberian | 120/120/120 | Spain, Portugal and Latin America; especially Spanish-speaking populations.
+latvian | Latvian | 124/147/142 | Latvia and Latvian diaspora. [NEW]
+lithuanian | Lithuanian | 31/28/24 | Lithuania and Lithuanian diaspora communities. [NEW]
+maghrebi | Maghrebi / Algerian | 81/85/180 | Algeria and neighboring North African countries; overlaps Arabic and Amazigh naming. [NEW]
+malagasy | Malagasy | 24/25/29 | Madagascar and Malagasy diaspora communities. [NEW]
+malay | Malay | 42/43/30 | Malaysia, Brunei, Singapore, southern Thailand and Malay-speaking parts of Indonesia. [NEW]
+malayalam | Malayalam / Malayali | 35/37/28 | Kerala in southwestern India and Malayali diaspora. [NEW]
+maltese | Maltese | 30/30/31 | Malta and Maltese diaspora communities. [NEW]
+maori | Māori | 27/27/35 | Aotearoa New Zealand and Māori diaspora, including Australia. [NEW]
+mapuche | Mapuche | 20/20/32 | Southern and central Chile and adjacent Argentina. [NEW]
+maya | Maya | 20/20/37 | Maya communities in southern Mexico, Guatemala, Belize, Honduras and El Salvador. [NEW]
+melanesian | Melanesian / Pacific | 30/30/34 | Papua New Guinea, Solomon Islands, Vanuatu, Fiji and New Caledonia; highly diverse region. [NEW]
+mesopotamian | Sumerian / Akkadian revival | 22/13/13 | Ancient Mesopotamia (modern Iraq and neighboring parts of Syria and Iran). [NEW]
+micronesian | Micronesian / Pacific | 25/26/35 | Federated States of Micronesia, Palau, Marshall Islands, Kiribati, Nauru, Guam and Northern Mariana Islands. [NEW]
+mizrahi | Mizrahi Jewish | 27/27/42 | Jewish communities of the Middle East and North Africa, including Iraq, Iran, Yemen, Syria and Israel. [NEW]
+mongolic | Mongolic | 99/99/96 | Mongolia, Inner Mongolia and neighboring Mongolic-speaking communities.
+nahua | Nahua / Nahuatl | 17/15/19 | Central Mexico and other Nahua communities in Mexico and Central America. [NEW]
+navajo | Diné / Navajo | 21/22/24 | Navajo Nation in Arizona, New Mexico and Utah, United States; wider Diné communities. [NEW]
+nepali | Nepali | 180/180/158 | Nepal and Nepali-speaking areas of India and Bhutan. [NEW]
+ojibwe | Ojibwe / Anishinaabe | 21/21/30 | Great Lakes region of Canada and the United States; Ojibwe and related Anishinaabe communities. [NEW]
+old-norse | Old Norse revival | 46/32/21 | Viking-age Scandinavia, Iceland, Faroe Islands and Norse settlements in the North Atlantic. [NEW]
+pashtun | Pashtun / Pashto | 32/34/25 | Afghanistan and northwestern Pakistan, especially Khyber Pakhtunkhwa and Balochistan. [NEW]
+persian-iranian | Persian / Iranian | 99/98/100 | Iran, Afghanistan (Dari speakers), Tajikistan and Persian diaspora communities.
+phoenician-punic | Phoenician / Punic revival | 21/11/17 | Ancient Levant (especially coastal Lebanon) and Phoenician/Punic settlements, including Carthage in modern Tunisia. [NEW]
+polish | Polish | 100/53/1 | Poland and Polish diaspora communities. [NEW]
+polynesian-pacific-islander | Polynesian / Pacific Islander | 101/98/97 | Polynesia and other Pacific islands; broad legacy pool.
+portuguese-brazilian | Portuguese / Brazilian | 180/180/144 | Portugal, Brazil and the wider Portuguese-speaking world. [NEW]
+punjabi | Punjabi / Sikh | 35/35/28 | Punjab in India and Pakistan, and diaspora communities; includes Sikh and other Punjabi naming. [NEW]
+quebecois | Québécois | 79/109/180 | Quebec and other French-speaking Canadian communities. [NEW]
+quechua | Quechua | 20/20/26 | Andes: Peru, Bolivia, Ecuador, and parts of Colombia, Argentina and Chile. [NEW]
+romani | Romani diaspora | 22/22/16 | Romani communities across Europe and the Americas; many regional and linguistic varieties. [NEW]
+romanian | Romanian / Moldovan | 180/180/43 | Romania and Moldova. [NEW]
+russian | Russian | 180/71/180 | Russia and Russian-speaking diaspora communities. [NEW]
+sami | Sámi | 16/20/27 | Sápmi: northern Norway, Sweden, Finland and the Kola Peninsula of Russia. [NEW]
+samoan | Samoan | 26/26/32 | Samoa, American Samoa and Samoan communities in New Zealand, Australia and the United States. [NEW]
+scandinavian | Scandinavian | 180/180/180 | Denmark, Norway and Sweden. [NEW]
+semitic-ethiopic | Semitic / Ethiopic | 95/98/98 | Ethiopia and Eritrea, especially speakers of Ethiopian Semitic languages.
+sephardic | Sephardic Jewish | 26/28/42 | Jewish communities descended from Iberian Jews, especially in Morocco, Turkey, Greece, the Balkans, Israel and the Americas. [NEW]
+sinhala | Sinhala | 36/35/25 | Sri Lanka, predominantly Sinhalese communities and diaspora. [NEW]
+somali | Somali | 34/34/25 | Somalia, Somaliland, Djibouti, eastern Ethiopia and northeastern Kenya; diaspora communities. [NEW]
+south-slavic | South Slavic | 180/180/180 | Croatia, Bosnia and Herzegovina, Slovenia, Bulgaria and other South Slavic regions. [NEW]
+southeast-asian | Southeast Asian | 102/99/98 | Mainland and maritime Southeast Asia, including Vietnam, Thailand, Cambodia, Myanmar, Indonesia and Malaysia.
+southern-african | Southern African | 106/98/97 | South Africa, Zimbabwe, Botswana, Namibia, Lesotho, Eswatini and nearby regions.
+swahili | Swahili | 114/149/71 | East African coast, especially Tanzania and Kenya; also inland East and Central Africa. [NEW]
+tajik | Tajik | 27/26/24 | Tajikistan and Tajik-speaking communities in Afghanistan and Uzbekistan. [NEW]
+tamil | Tamil | 120/120/120 | Tamil Nadu, Sri Lanka and Tamil diaspora communities. [NEW]
+telugu | Telugu | 38/40/35 | Andhra Pradesh and Telangana in India, and Telugu diaspora. [NEW]
+thai | Thai | 62/67/64 | Thailand and Thai diaspora communities. [NEW]
+tibetan-himalayan | Tibetan / Himalayan | 98/95/99 | Tibet and Himalayan communities in Nepal, Bhutan and northern India.
+tongan | Tongan | 25/26/31 | Tonga and Tongan diaspora in New Zealand, Australia and the United States. [NEW]
+turkic-central-asian | Turkic / Central Asian | 96/96/94 | Turkey, Azerbaijan, Central Asia and other Turkic-speaking regions.
+turkish | Turkish / Anatolian | 180/180/60 | Turkey, northern Cyprus and Turkish diaspora communities. [NEW]
+ukrainian | Ukrainian | 113/63/180 | Ukraine and Ukrainian diaspora communities. [NEW]
+uzbek | Uzbek | 100/100/180 | Uzbekistan and neighboring Central Asian communities. [NEW]
+vietnamese | Vietnamese | 38/39/40 | Vietnam and Vietnamese diaspora communities. [NEW]
+west-african | West African | 98/99/99 | Nigeria, Ghana, Senegal, Mali and other West African countries.
+western-northern-european | Western / Northern European | 99/99/100 | Western and Northern Europe; original list is particularly Anglophone.
+wildcard | Wildcard | 301/251/176 | No specific region; historical, mythological, fictional and unconventional names.
+yoruba | Yoruba | 86/84/98 | Southwestern Nigeria, Benin and Togo; worldwide diaspora. [NEW]
+zulu | Zulu | 30/58/180 | KwaZulu-Natal and other parts of South Africa. [NEW]
+
+NEW CULTURAL IDENTIFIERS — OPTIONAL ZERO-WEIGHT TEMPLATE
+Copy individual lines inside a colony bloc in colonies.js. Change weights as desired.
+Do NOT replace your existing colonies.js with this reference.
+
+        "afrikaans": 0,  // South Africa and Namibia; Afrikaans-speaking communities across backgrounds.
+        "akan": 0,  // Ghana and Côte d’Ivoire; Ghanaian provider includes names outside Akan tradition.
+        "amazigh": 0,  // Indigenous North Africa, particularly Morocco and Algeria; also Tunisia, Libya, Siwa in Egypt and Tuareg communities across the Sahara and Sahel.
+        "ancient-celtic": 0,  // Ancient and early medieval Celtic-speaking regions of western and central Europe, including Britain and Ireland.
+        "ancient-egyptian": 0,  // Ancient Nile Valley, especially Egypt; various dynastic periods.
+        "ancient-greek": 0,  // Ancient Greece and Greek colonies of the Mediterranean and Black Sea.
+        "ancient-persian": 0,  // Achaemenid and later ancient Iranian empires, centered on modern Iran.
+        "ancient-roman": 0,  // Roman Republic and Empire; Italy and the ancient Mediterranean.
+        "anglo-saxon": 0,  // Early medieval England, roughly 5th to 11th centuries.
+        "apache": 0,  // Southwestern United States, including Arizona and New Mexico; diverse Apache nations.
+        "armenian": 0,  // Armenia and Armenian diaspora communities in the Caucasus, Middle East, Europe and Americas.
+        "armenian-western": 0,  // Armenian diaspora, especially Lebanon, Syria, Turkey, France and the Americas.
+        "ashkenazi": 0,  // Central and Eastern European Jewish communities and descendants in Israel, North America and elsewhere.
+        "assyrian": 0,  // Assyrian communities in Iraq, Syria, Turkey and Iran, with a worldwide diaspora.
+        "aymara": 0,  // Bolivian and Peruvian Altiplano, northern Chile and adjacent Argentina.
+        "azerbaijani": 0,  // Azerbaijan, northwestern Iran and diaspora communities.
+        "basque": 0,  // Basque Country and Navarre in Spain and southwestern France; diaspora.
+        "bengali": 0,  // Bangladesh and West Bengal, India.
+        "burmese": 0,  // Myanmar and Burmese-speaking diaspora communities.
+        "byzantine": 0,  // Eastern Roman Empire, centered on Constantinople, Anatolia and the eastern Mediterranean.
+        "cajun-creole": 0,  // Louisiana, especially Acadiana and New Orleans, and Gulf Coast diaspora; distinct but overlapping traditions.
+        "caribbean": 0,  // English-, Spanish-, French- and Dutch-speaking Caribbean; Jamaica, Haiti, Trinidad and Tobago, Barbados and neighboring islands.
+        "cherokee": 0,  // Cherokee communities, especially Oklahoma and North Carolina, United States.
+        "classical-sanskrit": 0,  // Ancient and classical South Asia, especially India; Sanskrit literary and religious traditions.
+        "cree": 0,  // Canadian First Nations across Quebec, Ontario, Manitoba, Saskatchewan and Alberta, and adjacent US communities.
+        "czech-slovak": 0,  // Czechia and Slovakia.
+        "dutch": 0,  // Netherlands, Flanders (Belgium) and Dutch diaspora.
+        "english": 0,  // England and English-speaking Britain; diaspora communities.
+        "filipino": 0,  // Philippines and Filipino diaspora communities; Spanish, English and local-language influences.
+        "finnic": 0,  // Finland and Estonia; not the entire Finnic language family.
+        "french": 0,  // France, French-speaking Belgium and Switzerland; diaspora communities.
+        "georgian": 0,  // Georgia in the South Caucasus.
+        "germanic": 0,  // Germany, Austria, German-speaking Switzerland and Liechtenstein.
+        "gothic": 0,  // Late antique and early medieval Gothic-speaking peoples and other Germanic groups across Europe.
+        "greek": 0,  // Greece, Cyprus and Greek diaspora communities.
+        "guarani": 0,  // Paraguay, northeastern Argentina, southern Brazil and Bolivia; Guaraní-speaking communities.
+        "gujarati": 0,  // Gujarat, India, and Gujarati diaspora communities, including East Africa.
+        "hausa": 0,  // Northern Nigeria, Niger and other Sahelian communities.
+        "hawaiian": 0,  // Hawaiian Islands and Native Hawaiian diaspora in the continental United States and elsewhere.
+        "hindi": 0,  // Hindi-speaking regions of northern and central India.
+        "hungarian": 0,  // Hungary and Hungarian communities in Romania, Slovakia, Serbia and Ukraine.
+        "igbo": 0,  // Southeastern Nigeria and Igbo diaspora.
+        "indonesian": 0,  // Indonesia, especially Java and other major islands; diverse regional systems.
+        "inuit": 0,  // Arctic Canada (Inuit Nunangat), Greenland and northern Alaska; naming systems vary by community.
+        "irish": 0,  // Ireland, Northern Ireland and Irish diaspora.
+        "italian": 0,  // Italy, San Marino and Italian-speaking Switzerland.
+        "kannada": 0,  // Karnataka in southwestern India and Kannada-speaking diaspora.
+        "kazakh": 0,  // Kazakhstan, western Mongolia, Xinjiang and Kazakh diaspora.
+        "khmer": 0,  // Cambodia and Khmer communities in Vietnam and Thailand.
+        "kurdish": 0,  // Kurdish communities in Turkey, Iraq, Iran and Syria, plus diaspora.
+        "lakota-dakota": 0,  // Northern Great Plains of the United States and Canada; Lakota and Dakota communities.
+        "lao": 0,  // Laos and Lao diaspora communities in Thailand, France, the United States and elsewhere.
+        "latvian": 0,  // Latvia and Latvian diaspora.
+        "lithuanian": 0,  // Lithuania and Lithuanian diaspora communities.
+        "maghrebi": 0,  // Algeria and neighboring North African countries; overlaps Arabic and Amazigh naming.
+        "malagasy": 0,  // Madagascar and Malagasy diaspora communities.
+        "malay": 0,  // Malaysia, Brunei, Singapore, southern Thailand and Malay-speaking parts of Indonesia.
+        "malayalam": 0,  // Kerala in southwestern India and Malayali diaspora.
+        "maltese": 0,  // Malta and Maltese diaspora communities.
+        "maori": 0,  // Aotearoa New Zealand and Māori diaspora, including Australia.
+        "mapuche": 0,  // Southern and central Chile and adjacent Argentina.
+        "maya": 0,  // Maya communities in southern Mexico, Guatemala, Belize, Honduras and El Salvador.
+        "melanesian": 0,  // Papua New Guinea, Solomon Islands, Vanuatu, Fiji and New Caledonia; highly diverse region.
+        "mesopotamian": 0,  // Ancient Mesopotamia (modern Iraq and neighboring parts of Syria and Iran).
+        "micronesian": 0,  // Federated States of Micronesia, Palau, Marshall Islands, Kiribati, Nauru, Guam and Northern Mariana Islands.
+        "mizrahi": 0,  // Jewish communities of the Middle East and North Africa, including Iraq, Iran, Yemen, Syria and Israel.
+        "nahua": 0,  // Central Mexico and other Nahua communities in Mexico and Central America.
+        "navajo": 0,  // Navajo Nation in Arizona, New Mexico and Utah, United States; wider Diné communities.
+        "nepali": 0,  // Nepal and Nepali-speaking areas of India and Bhutan.
+        "ojibwe": 0,  // Great Lakes region of Canada and the United States; Ojibwe and related Anishinaabe communities.
+        "old-norse": 0,  // Viking-age Scandinavia, Iceland, Faroe Islands and Norse settlements in the North Atlantic.
+        "pashtun": 0,  // Afghanistan and northwestern Pakistan, especially Khyber Pakhtunkhwa and Balochistan.
+        "phoenician-punic": 0,  // Ancient Levant (especially coastal Lebanon) and Phoenician/Punic settlements, including Carthage in modern Tunisia.
+        "polish": 0,  // Poland and Polish diaspora communities.
+        "portuguese-brazilian": 0,  // Portugal, Brazil and the wider Portuguese-speaking world.
+        "punjabi": 0,  // Punjab in India and Pakistan, and diaspora communities; includes Sikh and other Punjabi naming.
+        "quebecois": 0,  // Quebec and other French-speaking Canadian communities.
+        "quechua": 0,  // Andes: Peru, Bolivia, Ecuador, and parts of Colombia, Argentina and Chile.
+        "romani": 0,  // Romani communities across Europe and the Americas; many regional and linguistic varieties.
+        "romanian": 0,  // Romania and Moldova.
+        "russian": 0,  // Russia and Russian-speaking diaspora communities.
+        "sami": 0,  // Sápmi: northern Norway, Sweden, Finland and the Kola Peninsula of Russia.
+        "samoan": 0,  // Samoa, American Samoa and Samoan communities in New Zealand, Australia and the United States.
+        "scandinavian": 0,  // Denmark, Norway and Sweden.
+        "sephardic": 0,  // Jewish communities descended from Iberian Jews, especially in Morocco, Turkey, Greece, the Balkans, Israel and the Americas.
+        "sinhala": 0,  // Sri Lanka, predominantly Sinhalese communities and diaspora.
+        "somali": 0,  // Somalia, Somaliland, Djibouti, eastern Ethiopia and northeastern Kenya; diaspora communities.
+        "south-slavic": 0,  // Croatia, Bosnia and Herzegovina, Slovenia, Bulgaria and other South Slavic regions.
+        "swahili": 0,  // East African coast, especially Tanzania and Kenya; also inland East and Central Africa.
+        "tajik": 0,  // Tajikistan and Tajik-speaking communities in Afghanistan and Uzbekistan.
+        "tamil": 0,  // Tamil Nadu, Sri Lanka and Tamil diaspora communities.
+        "telugu": 0,  // Andhra Pradesh and Telangana in India, and Telugu diaspora.
+        "thai": 0,  // Thailand and Thai diaspora communities.
+        "tongan": 0,  // Tonga and Tongan diaspora in New Zealand, Australia and the United States.
+        "turkish": 0,  // Turkey, northern Cyprus and Turkish diaspora communities.
+        "ukrainian": 0,  // Ukraine and Ukrainian diaspora communities.
+        "uzbek": 0,  // Uzbekistan and neighboring Central Asian communities.
+        "vietnamese": 0,  // Vietnam and Vietnamese diaspora communities.
+        "yoruba": 0,  // Southwestern Nigeria, Benin and Togo; worldwide diaspora.
+        "zulu": 0,  // KwaZulu-Natal and other parts of South Africa.
