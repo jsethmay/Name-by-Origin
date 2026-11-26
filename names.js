@@ -11513,49 +11513,327 @@ const NAME_LISTS = {
     ],
   },
 
-  // Common regions / communities: Western and Northern Europe; original list is particularly Anglophone.
-  // Original category — all original entries retained.
+  // Common regions / communities: Western, Northern, Southern and non-Slavic Central Europe, including the Baltic states.
+  // Source: Hand-curated authentic personal names and surnames, with approximate representation based on relative national populations.
+  // Note: Broad European colonial naming pool excluding Eastern European and Slavic traditions. Smaller linguistic communities are modestly overrepresented to preserve cultural diversity. Surnames use fixed forms regardless of gender.
   "western-northern-european": {
-    label: "Western / Northern European",
+    label: "Western / Northern / Southern European",
     surnameFirst: false,
     male: [
-      "Adam", "Adrian", "Albert", "Alexander", "Alfred", "Anders", "Andrew", "Anthony", "Arthur", "Benjamin",
-      "Bernard", "Brandon", "Brian", "Caleb", "Carl", "Charles", "Christian", "Christopher", "Colin", "Connor",
-      "Daniel", "David", "Dominic", "Edward", "Elias", "Elijah", "Eric", "Ethan", "Felix", "Finn", "Francis",
-      "Frederick", "Gabriel", "George", "Graham", "Grant", "Gregory", "Harold", "Harry", "Henry", "Hugh",
-      "Ian", "Isaac", "Jack", "Jacob", "James", "Jason", "Jeremy", "Joel", "John", "Jonathan", "Joseph",
-      "Julian", "Kevin", "Lars", "Leo", "Leon", "Lewis", "Liam", "Logan", "Louis", "Lucas", "Luke", "Marcus",
-      "Martin", "Matthew", "Maxwell", "Michael", "Nathan", "Nicholas", "Noah", "Oliver", "Oscar", "Owen",
-      "Patrick", "Paul", "Peter", "Philip", "Raymond", "Richard", "Robert", "Ryan", "Samuel", "Sebastian",
-      "Simon", "Stephen", "Theodore", "Thomas", "Timothy", "Tristan", "Victor", "Vincent", "Walter", "William",
-      "Zachary", "Aidan", "Brett", "Declan", "Rhys",
+      // German, Austrian and German-speaking Swiss
+      "Alexander", "Andreas", "Anton", "Bernhard", "Christian",
+      "Christoph", "Daniel", "David", "Dietrich", "Emil",
+      "Erich", "Felix", "Florian", "Franz", "Friedrich",
+      "Georg", "Gerhard", "Hannes", "Hans", "Heinrich",
+      "Hermann", "Johann", "Johannes", "Josef", "Jürgen",
+      "Karl", "Klaus", "Konrad", "Leon", "Lukas",
+      "Martin", "Matthias", "Maximilian", "Michael", "Moritz",
+      "Niklas", "Oliver", "Otto", "Paul", "Peter",
+      "Philipp", "Rainer", "Sebastian", "Stefan", "Thomas",
+      "Tobias", "Ulrich", "Werner", "Wilhelm", "Wolfgang",
+
+      // English, Scottish, Welsh and Irish
+      "Adam", "Aidan", "Alan", "Alasdair", "Albert",
+      "Andrew", "Arthur", "Benjamin", "Brian", "Charles",
+      "Colin", "Connor", "Daniel", "David", "Declan",
+      "Edward", "Ewan", "George", "Graham", "Harry",
+      "Henry", "Hugh", "Ian", "Jack", "James",
+      "John", "Joseph", "Liam", "Matthew", "Michael",
+      "Oisín", "Oliver", "Owen", "Patrick", "Rhys",
+      "Robert", "Samuel", "Thomas", "William",
+
+      // French, Walloon and French-speaking Swiss
+      "Adrien", "Alain", "Alexandre", "André", "Antoine",
+      "Armand", "Baptiste", "Bernard", "Charles", "Claude",
+      "Clément", "Damien", "Denis", "Édouard", "Étienne",
+      "François", "Frédéric", "Gabriel", "Guillaume", "Henri",
+      "Hugo", "Jacques", "Jean", "Jules", "Julien",
+      "Laurent", "Louis", "Luc", "Marcel", "Mathieu",
+      "Michel", "Nicolas", "Olivier", "Philippe", "Pierre",
+      "Raphaël", "René", "Sébastien", "Thierry", "Vincent",
+
+      // Italian
+      "Alberto", "Alessandro", "Andrea", "Angelo", "Antonio",
+      "Carlo", "Claudio", "Dante", "Davide", "Domenico",
+      "Enrico", "Fabio", "Federico", "Filippo", "Francesco",
+      "Gabriele", "Giacomo", "Giorgio", "Giovanni", "Giuseppe",
+      "Leonardo", "Lorenzo", "Luca", "Luigi", "Marco",
+      "Matteo", "Massimo", "Nicola", "Paolo", "Pietro",
+      "Roberto", "Salvatore", "Stefano", "Vincenzo", "Vittorio",
+
+      // Spanish, Catalan, Galician and Basque
+      "Adrián", "Aitor", "Alejandro", "Álvaro", "Andrés",
+      "Antonio", "Carlos", "Daniel", "Diego", "Eduardo",
+      "Enrique", "Fernando", "Francisco", "Gabriel", "Gonzalo",
+      "Hugo", "Javier", "Jordi", "Jorge", "José",
+      "Juan", "Luis", "Manuel", "Mateo", "Miguel",
+      "Mikel", "Pablo", "Rafael", "Santiago", "Xoán",
+
+      // Portuguese
+      "António", "Diogo", "Duarte", "Francisco", "João",
+      "Miguel", "Pedro", "Tiago",
+
+      // Dutch and Flemish
+      "Arjen", "Bram", "Daan", "Dirk", "Hendrik",
+      "Jan", "Jeroen", "Joost", "Karel", "Koen",
+      "Maarten", "Pieter", "Sander", "Willem",
+
+      // Greek
+      "Andreas", "Dimitrios", "Georgios", "Ioannis",
+      "Konstantinos", "Nikolaos", "Panagiotis",
+
+      // Hungarian
+      "András", "Attila", "Balázs", "Bence",
+      "Gábor", "István", "László",
+
+      // Swedish
+      "Anders", "Björn", "Erik", "Gustav",
+      "Johan", "Lars", "Nils",
+
+      // Danish
+      "Jens", "Mads", "Mikkel", "Søren",
+
+      // Norwegian
+      "Eirik", "Håkon", "Magnus", "Sindre",
+
+      // Finnish
+      "Eero", "Juhani", "Matti", "Tuomas",
+
+      // Lithuanian
+      "Darius", "Mindaugas", "Vytautas",
+
+      // Latvian
+      "Andris", "Jānis",
+
+      // Estonian
+      "Jaan", "Toomas",
+
+      // Albanian
+      "Arben", "Besnik", "Ilir",
+
+      // Icelandic
+      "Guðmundur", "Jón",
+
+      // Maltese
+      "Carmelo", "Ġorġ",
+
+      // Luxembourgish
+      "Luc", "Pol",
+
+      // Sámi
+      "Ánde", "Máhtte",
     ],
     female: [
-      "Abigail", "Alice", "Amanda", "Amelia", "Anna", "Audrey", "Beatrice", "Bethany", "Bridget", "Camille",
-      "Caroline", "Catherine", "Charlotte", "Chloe", "Claire", "Clara", "Danielle", "Diana", "Eleanor",
-      "Elena", "Elisa", "Elizabeth", "Ella", "Emily", "Emma", "Erica", "Eva", "Evelyn", "Felicity", "Florence",
-      "Francesca", "Gabrielle", "Georgia", "Grace", "Hannah", "Harriet", "Hazel", "Heather", "Helena", "Holly",
-      "Imogen", "Irene", "Isabel", "Isabella", "Jacqueline", "Jane", "Jasmine", "Jennifer", "Jessica",
-      "Joanna", "Josephine", "Julia", "Juliette", "Karen", "Katherine", "Laura", "Lauren", "Lillian", "Lily",
-      "Lucy", "Madeline", "Margaret", "Maria", "Marianne", "Martha", "Mary", "Matilda", "Megan", "Natalie",
-      "Nicole", "Nora", "Olivia", "Patricia", "Penelope", "Rachel", "Rebecca", "Rose", "Rosalie", "Samantha",
-      "Sarah", "Scarlett", "Sophia", "Sophie", "Stella", "Susan", "Sylvia", "Teresa", "Valerie", "Vanessa",
-      "Victoria", "Violet", "Vivian", "Wendy", "Zoe", "Alicia", "Cecilia", "Elaine", "Freya", "Louise",
+      // German, Austrian and German-speaking Swiss
+      "Agnes", "Andrea", "Anna", "Anneliese", "Astrid",
+      "Barbara", "Beate", "Brigitte", "Carla", "Charlotte",
+      "Clara", "Claudia", "Elisabeth", "Elke", "Emilia",
+      "Emma", "Eva", "Franziska", "Frieda", "Gertrud",
+      "Greta", "Hanna", "Heidi", "Helene", "Ingrid",
+      "Johanna", "Julia", "Karin", "Katharina", "Klara",
+      "Laura", "Lea", "Lena", "Lieselotte", "Lina",
+      "Luise", "Magdalena", "Maria", "Marlene", "Martha",
+      "Monika", "Nina", "Sabine", "Sophie", "Stefanie",
+      "Susanne", "Theresa", "Ursula", "Verena", "Viktoria",
+
+      // English, Scottish, Welsh and Irish
+      "Abigail", "Alice", "Amelia", "Aoife", "Audrey",
+      "Beatrice", "Bridget", "Catherine", "Charlotte", "Ciara",
+      "Eleanor", "Eilidh", "Elizabeth", "Emily", "Emma",
+      "Fiona", "Florence", "Grace", "Hannah", "Harriet",
+      "Heather", "Helen", "Imogen", "Isabel", "Jane",
+      "Jessica", "Lucy", "Margaret", "Mary", "Megan",
+      "Niamh", "Olivia", "Rebecca", "Rose", "Saoirse",
+      "Sarah", "Siobhán", "Victoria", "Winifred",
+
+      // French, Walloon and French-speaking Swiss
+      "Adèle", "Agathe", "Amélie", "Anaïs", "Anne",
+      "Apolline", "Aurore", "Camille", "Cécile", "Céline",
+      "Chantal", "Charlotte", "Claire", "Clémence", "Colette",
+      "Delphine", "Élise", "Élodie", "Émilie", "Estelle",
+      "Françoise", "Gabrielle", "Geneviève", "Hélène", "Inès",
+      "Isabelle", "Jacqueline", "Jeanne", "Joséphine", "Julie",
+      "Juliette", "Léa", "Louise", "Lucie", "Madeleine",
+      "Margaux", "Marguerite", "Mathilde", "Nathalie", "Sophie",
+
+      // Italian
+      "Alessandra", "Alice", "Angela", "Anna", "Antonella",
+      "Arianna", "Aurora", "Beatrice", "Bianca", "Carlotta",
+      "Caterina", "Chiara", "Daniela", "Elena", "Elisa",
+      "Emilia", "Federica", "Francesca", "Gabriella", "Giada",
+      "Ginevra", "Giulia", "Giuliana", "Ilaria", "Isabella",
+      "Lucia", "Luisa", "Margherita", "Maria", "Martina",
+      "Paola", "Rosa", "Silvia", "Sofia", "Valentina",
+
+      // Spanish, Catalan, Galician and Basque
+      "Adriana", "Ainhoa", "Alba", "Alicia", "Amaia",
+      "Ana", "Beatriz", "Blanca", "Camila", "Carmen",
+      "Catalina", "Clara", "Cristina", "Elena", "Eva",
+      "Gabriela", "Inés", "Isabel", "Laia", "Laura",
+      "Lucía", "María", "Marina", "Marta", "Mercedes",
+      "Montserrat", "Nuria", "Pilar", "Sofía", "Uxía",
+
+      // Portuguese
+      "Ana", "Beatriz", "Catarina", "Inês",
+      "Leonor", "Maria", "Matilde", "Teresa",
+
+      // Dutch and Flemish
+      "Anke", "Anneke", "Els", "Femke", "Hanne",
+      "Inge", "Johanna", "Lieke", "Lotte", "Marieke",
+      "Marit", "Sanne", "Sofie", "Willemien",
+
+      // Greek
+      "Aikaterini", "Anastasia", "Eleni", "Eirini",
+      "Georgia", "Maria", "Sophia",
+
+      // Hungarian
+      "Ágnes", "Anikó", "Eszter", "Éva",
+      "Katalin", "Réka", "Zsófia",
+
+      // Swedish
+      "Annika", "Elsa", "Ingrid", "Karin",
+      "Linnea", "Maja", "Sigrid",
+
+      // Danish
+      "Freja", "Ida", "Kirsten", "Mette",
+
+      // Norwegian
+      "Astrid", "Ingeborg", "Liv", "Solveig",
+
+      // Finnish
+      "Aino", "Helmi", "Kaisa", "Sari",
+
+      // Lithuanian
+      "Aušra", "Eglė", "Rūta",
+
+      // Latvian
+      "Ilze", "Līga",
+
+      // Estonian
+      "Katrin", "Maarja",
+
+      // Albanian
+      "Arta", "Besa", "Elira",
+
+      // Icelandic
+      "Guðrún", "Sigríður",
+
+      // Maltese
+      "Marija", "Tereża",
+
+      // Luxembourgish
+      "Léonie", "Marie",
+
+      // Sámi
+      "Elle", "Rávdná",
     ],
     surname: [
-      "Anderson", "Armstrong", "Atkinson", "Baker", "Barnes", "Bell", "Bennett", "Black", "Bradley", "Brooks",
-      "Brown", "Butler", "Campbell", "Carter", "Chapman", "Clark", "Coleman", "Collins", "Cook", "Cooper",
-      "Cox", "Cunningham", "Davies", "Davis", "Dawson", "Edwards", "Ellis", "Evans", "Fisher", "Fletcher",
-      "Ford", "Foster", "Fox", "Fraser", "Gibson", "Graham", "Grant", "Gray", "Green", "Griffin", "Hall",
-      "Hamilton", "Harris", "Harrison", "Hayes", "Henderson", "Hill", "Holmes", "Howard", "Hughes", "Hunter",
-      "Jackson", "James", "Jenkins", "Johnson", "Jones", "Kelly", "Kennedy", "King", "Knight", "Lewis",
-      "Lloyd", "Marshall", "Martin", "Mason", "Miller", "Mitchell", "Moore", "Morgan", "Morris", "Murphy",
-      "Murray", "Nelson", "Nichols", "Parker", "Phillips", "Powell", "Price", "Reed", "Reynolds", "Richardson",
-      "Roberts", "Robinson", "Ross", "Scott", "Shaw", "Simpson", "Smith", "Stewart", "Taylor", "Thompson",
-      "Turner", "Walker", "Ward", "Watson", "White", "Williams", "Wilson", "Wright", "Young",
+      // German, Austrian and German-speaking Swiss
+      "Bauer", "Baumann", "Becker", "Berger", "Braun",
+      "Brunner", "Busch", "Dietrich", "Engel", "Fischer",
+      "Frank", "Fuchs", "Graf", "Gruber", "Hahn",
+      "Hartmann", "Heinrich", "Hoffmann", "Huber", "Kaiser",
+      "Keller", "Klein", "Koch", "König", "Krause",
+      "Krüger", "Lang", "Lehmann", "Maier", "Mayer",
+      "Meier", "Meyer", "Müller", "Neumann", "Richter",
+      "Roth", "Schäfer", "Schmid", "Schmidt", "Schmitt",
+      "Schneider", "Scholz", "Schröder", "Schulz", "Schwarz",
+      "Steiner", "Vogel", "Wagner", "Weber", "Zimmermann",
+
+      // English, Scottish, Welsh and Irish
+      "Anderson", "Armstrong", "Bennett", "Brown", "Campbell",
+      "Clark", "Clarke", "Cooper", "Davies", "Doyle",
+      "Edwards", "Evans", "Fletcher", "Fraser", "Green",
+      "Griffiths", "Harris", "Hughes", "Johnson", "Jones",
+      "Kelly", "Kennedy", "MacDonald", "MacKenzie", "Miller",
+      "Mitchell", "Morgan", "Murphy", "O'Brien", "O'Connor",
+      "O'Neill", "Parker", "Reid", "Roberts", "Smith",
+      "Stewart", "Taylor", "Wilson", "Wright",
+
+      // French, Walloon and French-speaking Swiss
+      "André", "Arnaud", "Aubert", "Bernard", "Bertrand",
+      "Blanc", "Bonnet", "Boucher", "Boyer", "Brun",
+      "Chevalier", "Clément", "Colin", "David", "Delacroix",
+      "Dubois", "Dufour", "Dumont", "Dupont", "Durand",
+      "Faure", "Fournier", "Garnier", "Gauthier", "Girard",
+      "Guillaume", "Henry", "Lambert", "Laurent", "Lefebvre",
+      "Lemaire", "Leroy", "Marchand", "Martin", "Mercier",
+      "Moreau", "Petit", "Renard", "Robert", "Rousseau",
+
+      // Italian
+      "Amato", "Barbieri", "Basile", "Bianchi", "Bruno",
+      "Caruso", "Colombo", "Conti", "Costa", "De Luca",
+      "De Santis", "Esposito", "Ferrara", "Ferrari", "Fontana",
+      "Gallo", "Giordano", "Greco", "Grimaldi", "Leone",
+      "Lombardi", "Mancini", "Marino", "Martini", "Moretti",
+      "Ricci", "Rinaldi", "Romano", "Rossi", "Russo",
+      "Santoro", "Serra", "Testa", "Valentini", "Vitale",
+
+      // Spanish, Catalan, Galician and Basque
+      "Aguirre", "Alonso", "Álvarez", "Blanco", "Castro",
+      "Domínguez", "Etxeberria", "Fernández", "García", "Gil",
+      "Gómez", "González", "Gutiérrez", "Hernández", "López",
+      "Martín", "Martínez", "Molina", "Morales", "Moreno",
+      "Navarro", "Ortega", "Pérez", "Puig", "Ramírez",
+      "Rodríguez", "Romero", "Ruiz", "Sánchez", "Vidal",
+
+      // Portuguese
+      "Almeida", "Carvalho", "Costa", "Ferreira",
+      "Gomes", "Oliveira", "Pereira", "Silva",
+
+      // Dutch and Flemish
+      "Bakker", "Claes", "De Bruijn", "De Jong",
+      "De Smet", "De Vries", "Hermans", "Jansen",
+      "Peeters", "Van den Berg", "Van der Meer",
+      "Van Dijk", "Van Leeuwen", "Visser",
+
+      // Greek
+      "Alexiou", "Georgiou", "Ioannidis", "Nikolaidis",
+      "Papadopoulos", "Pappas", "Vasileiou",
+
+      // Hungarian
+      "Horváth", "Kiss", "Kovács", "Molnár",
+      "Nagy", "Szabó", "Tóth",
+
+      // Swedish
+      "Andersson", "Berg", "Eriksson", "Johansson",
+      "Karlsson", "Lindberg", "Lindström",
+
+      // Danish
+      "Hansen", "Jensen", "Nielsen", "Pedersen",
+
+      // Norwegian
+      "Berg", "Haugen", "Johansen", "Olsen",
+
+      // Finnish
+      "Heikkinen", "Korhonen", "Mäkinen", "Virtanen",
+
+      // Lithuanian
+      "Jankauskas", "Kazlauskas", "Petrauskas",
+
+      // Latvian
+      "Bērziņš", "Kalniņš",
+
+      // Estonian
+      "Saar", "Tamm",
+
+      // Albanian
+      "Gashi", "Hoxha", "Krasniqi",
+
+      // Icelandic
+      "Blöndal", "Thorarensen",
+
+      // Maltese
+      "Borg", "Farrugia",
+
+      // Luxembourgish
+      "Krier", "Schmit",
+
+      // Sámi
+      "Gaup", "Hætta",
     ],
   },
-
+  
   // Common regions / communities: No specific region; historical, mythological, fictional and unconventional names.
   // Original category — all original entries retained.
   "wildcard": {
