@@ -185,36 +185,179 @@ const COLONY_BLOCS = {
     },
 
    
-    "Jerkbag Colony": {
+    "North America": {
 
+        // ===== AMERICAS =====
+        // North American
         "american":                    5,
-        "arabic-middle-eastern":       5,
-        "bantu":                       2,
-        "celtic":                      1,
-        "central-african":             2,
-        "dravidian":                   5,
-        "east-african":                2,
-        "east-asian-chinese":         10,
-        "east-asian-japanese":         3,
-        "east-asian-korean":           2,
-        "eastern-european-slavic":     4,
-        "ethiopian-horn-of-africa":    2,
-        "indigenous-american":         2,
-        "indigenous-australian":       1,
-        "indo-aryan":                 18,
-        "jewish-hebrew":               2,
-        "latin-iberian":               5,
-        "mongolic":                    2,
-        "persian-iranian":             3,
-        "polynesian-pacific-islander": 2,
-        "semitic-ethiopic":            2,
-        "southeast-asian":             6,
-        "southern-african":            2,
-        "tibetan-himalayan":           2,
-        "turkic-central-asian":        3,
-        "west-african":                5,
+        "cajun-creole":                 0,
+        "quebecois":                    0,
+        // Indigenous American
+        "indigenous-american":          2,
+        "apache":                       0,
+        "cherokee":                     0,
+        "cree":                         0,
+        "inuit":                        0,
+        "lakota-dakota":                 0,
+        "navajo":                       0,
+        "ojibwe":                       0,
+        "maya":                         0,
+        "nahua":                        0,
+        "aymara":                       0,
+        "guarani":                      0,
+        "mapuche":                      0,
+        "quechua":                      0,
+        // Latin American / Iberian
+        "latin-iberian":                5,
+        "portuguese-brazilian":          0,
+        "caribbean":                    0,
+        // ===== EUROPE =====
+        // Western and Northern European
         "western-northern-european":   6,
+        "english":                      0,
+        "french":                       0,
+        "dutch":                        0,
+        "germanic":                     0,
+        "scandinavian":                 0,
+        "finnic":                       0,
+        "sami":                         0,
+        // Celtic
+        "celtic":                       1,
+        "irish":                        0,
+        // Southern European
+        "basque":                       0,
+        "italian":                      0,
+        "maltese":                      0,
+        "greek":                        0,
+        // Central and Eastern European
+        "eastern-european-slavic":      4,
+        "czech-slovak":                 0,
+        "hungarian":                    0,
+        "polish":                       0,
+        "russian":                      0,
+        "ukrainian":                    0,
+        "romanian":                     0,
+        "latvian":                      0,
+        "lithuanian":                   0,
+        "south-slavic":                 0,
+        // Romani
+        "romani":                       0,
+        // ===== AFRICA =====
+        // North African
+        "amazigh":                      0,
+        "maghrebi":                     0,
+        // West African
+        "west-african":                 5,
+        "akan":                         0,
+        "hausa":                        0,
+        "igbo":                         0,
+        "yoruba":                       0,
+        // Central African
+        "central-african":              2,
+        "bantu":                        2,
+        // East African
+        "east-african":                 2,
+        "swahili":                      0,
+        // Horn of Africa
+        "ethiopian-horn-of-africa":     2,
+        "semitic-ethiopic":             2,
+        "somali":                       0,
+        // Southern African
+        "southern-african":             2,
+        "afrikaans":                    0,
+        "zulu":                         0,
+        // Indian Ocean African
+        "malagasy":                     0,
+        // ===== MIDDLE EAST =====
+        // Arabian / Levantine / Mesopotamian
+        "arabic-middle-eastern":        5,
+        "assyrian":                     0,
+        // Iranian
+        "persian-iranian":              3,
+        "kurdish":                      0,
+        // Anatolian
+        "turkish":                      0,
+        // ===== JEWISH DIASPORA =====
+        "jewish-hebrew":                2,
+        "ashkenazi":                    0,
+        "sephardic":                    0,
+        "mizrahi":                      0,
+        // ===== CAUCASUS =====
+        "armenian":                     0,
+        "armenian-western":             0,
+        "azerbaijani":                  0,
+        "georgian":                     0,
+        // ===== CENTRAL AND NORTHERN ASIA =====
+        // Turkic
+        "turkic-central-asian":         3,
+        "kazakh":                       0,
+        "uzbek":                        0,
+        // Iranian
+        "tajik":                        0,
+        "pashtun":                      0,
+        // Mongolic
+        "mongolic":                     2,
+        // ===== SOUTH ASIA =====
+        // Indo-Aryan
+        "indo-aryan":                  18,
+        "bengali":                      0,
+        "gujarati":                     0,
+        "hindi":                        0,
+        "punjabi":                      0,
+        "nepali":                       0,
+        "sinhala":                      0,
+        // Dravidian
+        "dravidian":                   5,
+        "kannada":                      0,
+        "malayalam":                    0,
+        "tamil":                        0,
+        "telugu":                       0,
+        // Himalayan
+        "tibetan-himalayan":            2,
+        // ===== EAST ASIA =====
+        "east-asian-chinese":         10,
+        "east-asian-japanese":          3,
+        "east-asian-korean":            2,
+        // ===== SOUTHEAST ASIA =====
+        "southeast-asian":              6,
+        // Mainland Southeast Asian
+        "burmese":                      0,
+        "khmer":                        0,
+        "lao":                          0,
+        "thai":                         0,
+        "vietnamese":                   0,
+        // Maritime Southeast Asian
+        "filipino":                     0,
+        "indonesian":                   0,
+        "malay":                        0,
+        // ===== OCEANIA =====
+        // Indigenous Australian
+        "indigenous-australian":        1,
+        // Polynesian
+        "polynesian-pacific-islander":  2,
+        "hawaiian":                     0,
+        "maori":                        0,
+        "samoan":                       0,
+        "tongan":                       0,
+        // Melanesian
+        "melanesian":                   0,
+        // Micronesian
+        "micronesian":                  0,
+        // ===== WILDCARD =====
         "wildcard":                    6,
+        // Ancient and Historical Revival
+        "ancient-celtic":               0,
+        "ancient-egyptian":             0,
+        "ancient-greek":                0,
+        "ancient-persian":              0,
+        "ancient-roman":                0,
+        "anglo-saxon":                  0,
+        "byzantine":                    0,
+        "classical-sanskrit":           0,
+        "gothic":                       0,
+        "mesopotamian":                 0,
+        "old-norse":                    0,
+        "phoenician-punic":             0,
 
     },
       "Miso Lovers": {
