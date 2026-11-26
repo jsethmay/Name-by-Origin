@@ -75,6 +75,11 @@
         dd { margin: 0; overflow-wrap: anywhere; }
         #outAppears { color: var(--accent); font-size: 1.15rem; font-weight: 600; }
         #outGivenOrigin, #outSurnameOrigin { color: var(--muted); }
+        #outColony { color: var(--accent); font-weight: 600; }
+        #copyResult { background: transparent; color: var(--accent); border-color: var(--accent); }
+        #copyResult:hover { background: #203540; }
+        #copyStatus { color: var(--muted); font-size: 0.85rem; margin: 8px 0 0; text-align: center; }
+        #manualCopy { width: 100%; min-height: 12rem; margin-top: 12px; padding: 10px; background: var(--background); color: var(--text); border: 1px solid var(--border); font: inherit; }
         footer { color: var(--muted); font: 0.7rem monospace; letter-spacing: 0.12em; }
         @media (max-width: 380px) {
             .panel { padding: 16px; }
@@ -103,6 +108,7 @@
             <p id="emptyState">Select a colony bloc and press Generate Name.</p>
             <div id="resultRows" style="display: none;">
                 <dl>
+                    <div class="result-row"><dt>Colony bloc of origin</dt><dd id="outColony"></dd></div>
                     <div class="result-row"><dt>Male</dt><dd id="outMale"></dd></div>
                     <div class="result-row"><dt>Female</dt><dd id="outFemale"></dd></div>
                     <div class="result-row"><dt>Surname</dt><dd id="outSurname"></dd></div>
@@ -110,6 +116,9 @@
                     <div class="result-row"><dt>Given origin</dt><dd id="outGivenOrigin"></dd></div>
                     <div class="result-row"><dt>Surname origin</dt><dd id="outSurnameOrigin"></dd></div>
                 </dl>
+                <button id="copyResult" type="button">Copy Result</button>
+                <p id="copyStatus" role="status"></p>
+                <textarea id="manualCopy" aria-label="Result text for manual copying" readonly hidden></textarea>
             </div>
         </section>
         <noscript><p>Enable JavaScript to use the generator.</p></noscript>
