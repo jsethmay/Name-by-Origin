@@ -331,7 +331,7 @@ const COLONY_BLOCS = {
 
         // ===== AMERICAS =====
         // North American
-        "american":                    40,
+        "american":                    90,
         "cajun-creole":                 1,
         "quebecois":                    1,
         // Indigenous American
@@ -355,7 +355,7 @@ const COLONY_BLOCS = {
         "caribbean":                    1,
         // ===== EUROPE =====
         // Western and Northern European
-        "western-northern-european":   20,
+        "western-northern-european":   50,
         "english":                      1,
         "french":                       1,
         "dutch":                        1,
