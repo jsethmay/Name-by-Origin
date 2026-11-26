@@ -153,40 +153,6 @@ const COLONY_BLOCS = {
    
     "No Cultural Origin": {
 
-        "american":                    5,
-        "arabic-middle-eastern":       5,
-        "bantu":                       2,
-        "celtic":                      1,
-        "central-african":             2,
-        "dravidian":                   5,
-        "east-african":                2,
-        "east-asian-chinese":         10,
-        "east-asian-japanese":         3,
-        "east-asian-korean":           2,
-        "eastern-european-slavic":     4,
-        "ethiopian-horn-of-africa":    2,
-        "indigenous-american":         2,
-        "indigenous-australian":       1,
-        "indo-aryan":                 18,
-        "jewish-hebrew":               2,
-        "latin-iberian":               5,
-        "mongolic":                    2,
-        "persian-iranian":             3,
-        "polynesian-pacific-islander": 2,
-        "semitic-ethiopic":            2,
-        "southeast-asian":             6,
-        "southern-african":            2,
-        "tibetan-himalayan":           2,
-        "turkic-central-asian":        3,
-        "west-african":                5,
-        "western-northern-european":   6,
-        "wildcard":                    6,
-
-    },
-
-   
-    "North America": {
-
         // ===== AMERICAS =====
         // North American
         "american":                    5,
@@ -357,6 +323,182 @@ const COLONY_BLOCS = {
         "gothic":                       0,
         "mesopotamian":                 0,
         "old-norse":                    0,
+        "phoenician-punic":             0,
+    },
+
+   
+    "North America": {
+
+        // ===== AMERICAS =====
+        // North American
+        "american":                    30,
+        "cajun-creole":                 1,
+        "quebecois":                    1,
+        // Indigenous American
+        "indigenous-american":          1,
+        "apache":                       1,
+        "cherokee":                     1,
+        "cree":                         1,
+        "inuit":                        1,
+        "lakota-dakota":                 1,
+        "navajo":                       1,
+        "ojibwe":                       1,
+        "maya":                         1,
+        "nahua":                        1,
+        "aymara":                       1,
+        "guarani":                      1,
+        "mapuche":                      1,
+        "quechua":                      1,
+        // Latin American / Iberian
+        "latin-iberian":                5,
+        "portuguese-brazilian":          1,
+        "caribbean":                    1,
+        // ===== EUROPE =====
+        // Western and Northern European
+        "western-northern-european":   20,
+        "english":                      1,
+        "french":                       1,
+        "dutch":                        1,
+        "germanic":                     1,
+        "scandinavian":                 1,
+        "finnic":                       1,
+        "sami":                         1,
+        // Celtic
+        "celtic":                       1,
+        "irish":                        1,
+        // Southern European
+        "basque":                       1,
+        "italian":                      1,
+        "maltese":                      1,
+        "greek":                        1,
+        // Central and Eastern European
+        "eastern-european-slavic":      1,
+        "czech-slovak":                 1,
+        "hungarian":                    1,
+        "polish":                       1,
+        "russian":                      1,
+        "ukrainian":                    1,
+        "romanian":                     1,
+        "latvian":                      1,
+        "lithuanian":                   1,
+        "south-slavic":                 1,
+        // Romani
+        "romani":                       1,
+        // ===== AFRICA =====
+        // North African
+        "amazigh":                      0,
+        "maghrebi":                     0,
+        // West African
+        "west-african":                 1,
+        "akan":                         0,
+        "hausa":                        0,
+        "igbo":                         0,
+        "yoruba":                       0,
+        // Central African
+        "central-african":              1,
+        "bantu":                        1,
+        // East African
+        "east-african":                 1,
+        "swahili":                      0,
+        // Horn of Africa
+        "ethiopian-horn-of-africa":     1,
+        "semitic-ethiopic":             1,
+        "somali":                       0,
+        // Southern African
+        "southern-african":             1,
+        "afrikaans":                    1,
+        "zulu":                         0,
+        // Indian Ocean African
+        "malagasy":                     0,
+        // ===== MIDDLE EAST =====
+        // Arabian / Levantine / Mesopotamian
+        "arabic-middle-eastern":        1,
+        "assyrian":                     0,
+        // Iranian
+        "persian-iranian":              1,
+        "kurdish":                      1,
+        // Anatolian
+        "turkish":                      0,
+        // ===== JEWISH DIASPORA =====
+        "jewish-hebrew":                1,
+        "ashkenazi":                    1,
+        "sephardic":                    1,
+        "mizrahi":                      1,
+        // ===== CAUCASUS =====
+        "armenian":                     1,
+        "armenian-western":             1,
+        "azerbaijani":                  1,
+        "georgian":                     1,
+        // ===== CENTRAL AND NORTHERN ASIA =====
+        // Turkic
+        "turkic-central-asian":         1,
+        "kazakh":                       1,
+        "uzbek":                        1,
+        // Iranian
+        "tajik":                        0,
+        "pashtun":                      0,
+        // Mongolic
+        "mongolic":                     1,
+        // ===== SOUTH ASIA =====
+        // Indo-Aryan
+        "indo-aryan":                  1,
+        "bengali":                      0,
+        "gujarati":                     0,
+        "hindi":                        0,
+        "punjabi":                      0,
+        "nepali":                       0,
+        "sinhala":                      0,
+        // Dravidian
+        "dravidian":                   1,
+        "kannada":                      0,
+        "malayalam":                    0,
+        "tamil":                        0,
+        "telugu":                       0,
+        // Himalayan
+        "tibetan-himalayan":            1,
+        // ===== EAST ASIA =====
+        "east-asian-chinese":         1,
+        "east-asian-japanese":          1,
+        "east-asian-korean":            1,
+        // ===== SOUTHEAST ASIA =====
+        "southeast-asian":              1,
+        // Mainland Southeast Asian
+        "burmese":                      0,
+        "khmer":                        0,
+        "lao":                          0,
+        "thai":                         0,
+        "vietnamese":                   0,
+        // Maritime Southeast Asian
+        "filipino":                     1,
+        "indonesian":                   0,
+        "malay":                        0,
+        // ===== OCEANIA =====
+        // Indigenous Australian
+        "indigenous-australian":        1,
+        // Polynesian
+        "polynesian-pacific-islander":  1,
+        "hawaiian":                     1,
+        "maori":                        1,
+        "samoan":                       0,
+        "tongan":                       0,
+        // Melanesian
+        "melanesian":                   0,
+        // Micronesian
+        "micronesian":                  0,
+        // ===== WILDCARD =====
+        "wildcard":                    10,
+        // Ancient and Historical Revival
+        "ancient-celtic":               0,
+        "ancient-egyptian":             0,
+        "ancient-greek":                1,
+        "ancient-persian":              1,
+        "ancient-roman":                1,
+        "anglo-saxon":                  1,
+        "byzantine":                    1,
+        "classical-sanskrit":           0,
+        "gothic":                       1,
+        "mesopotamian":                 0,
+        "old-norse":                    3,
         "phoenician-punic":             0,
 
     },
